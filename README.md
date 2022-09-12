@@ -4,10 +4,13 @@
 
 ```gradle
 dependencies {
+    // For cameraX library
     def camerax_version = "1.0.0-rc01"
     implementation "androidx.camera:camera-camera2:${camerax_version}"
     implementation "androidx.camera:camera-lifecycle:${camerax_version}"
     implementation "androidx.camera:camera-view:1.0.0-alpha20"
+    // For Custom Camera
+    implementation 'com.github.return-kr:custom-camera:$latest_stable_version'
 }
 ```
 ### Add the following to the settings.gradle file. ###
