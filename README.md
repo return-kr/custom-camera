@@ -33,7 +33,7 @@ cameraTask = CustomCamera(activity = this, lifecycleOwner = this, previewView = 
 cameraTask?.takePhoto(directoryName = "CameraModuleTest")
 
 ```
-### Set the listener to get the connectivity change callbacks. ###
+### Set the listener to get the photo shoot callbacks. ###
 ```kotlin
 cameraTask?.addOnCaptureListener(object : OnCaptureListener {
     override fun onCaptureSuccess(photoPath: String) {
