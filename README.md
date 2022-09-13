@@ -1,4 +1,4 @@
-# The library contains a BroadcastReceiver to check the connectivity with Internet #
+# The library Provides the implementation of a Custom Camera functionality #
 ## Use of the library ##
 ### Add library dependency to the app level build.gradle file. ###
 
